@@ -14,7 +14,7 @@ st.set_page_config(
 
 #Información y juego
 st.title("🎯 Adivina el número secreto")
-st.image("Adivina.jpg")
+st.image("adivina.jpg")
 st.markdown(
 """La idea central del juego —adivinar un número elegido por otro jugador mediante pistas— proviene de **juegos de lógica y adivinanzas muy antiguos**. Civilizaciones antiguas ya practicaban juegos de “sí o no” o de deducción numérica como **pasatiempos intelectuales**.
 En la era victoriana, se popularizaron los llamados "parlor games" (juegos de salón), entre ellos algunos basados en adivinar **números o palabras con pistas**. Estos se consideran antecesores directos del “Adivina el número”.
@@ -41,3 +41,4 @@ if st.button("Comprobar"):
         st.warning("📈 Demasiado alto, intenta un número menor.")
         
 st.audio("Circo.mp3")
+
