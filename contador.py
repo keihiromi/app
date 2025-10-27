@@ -12,7 +12,7 @@ st.set_page_config(
     )
 #Información y juego
 st.title("🖱️ Contador de clics")
-st.image("Click.jpg")
+st.image("click.jpg")
 st.markdown(
 """Este juego te permite tener como pasatiempo darle clic al botón, no es muy complicado solo sigue haciendolo hasta cuando tu quieras.
 """
@@ -35,4 +35,5 @@ if st.button("🔄 Reiniciar"):
     st.session_state.puntos = 0
     st.rerun()
     
+
 st.audio("Circo.mp3")
