@@ -5,7 +5,7 @@ import streamlit as st
 #Configuración de la página
 st.set_page_config(
     page_title="Sobre nosotros",
-    page_icon=":dark_sunglasses:"
+    page_icon=":bookmark_tabs:"
     )
 # Sección Inicial
 st.title("Sobre nosotros")
@@ -35,4 +35,5 @@ Sí, ese es su usuario real. Y sí, ama Game of Thrones tanto como programar. Cu
 Juntas, creemos que los juegos no tienen que ser complicados para ser divertidos. Solo necesitan un toque de creatividad, una pizca de locura y muchas ganas de pasarlo bien.
 """
     )
+
 st.audio("juego.mp3")
